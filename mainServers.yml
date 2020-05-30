@@ -68,7 +68,7 @@ Resources:
           cd /var/www/html
           aws s3 cp s3://udacity-demo-1/udacity.zip 
           unzip -o udacity.zip
-      ImageId: ami-005bdb005fb00e791
+      ImageId: ami-07c1207a9d40bc3bd   // Image-Id was not valid so I replaced with a valid one.
       IamInstanceProfile:
         Ref: ProfileWithRolesForOurApp
       SecurityGroups:
